@@ -1,0 +1,31 @@
+nav {
+    text-align: right;
+}
+
+form > * {
+    display: block;
+    margin: auto;
+    margin-block: 1em;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.advanced > * {
+    margin: 1em;
+    margin-block: 1em;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 0.5em;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+}
+
+input[type="submit"] {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 0.5em;
+}
